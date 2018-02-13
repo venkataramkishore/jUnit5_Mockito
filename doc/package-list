@@ -1,0 +1,9 @@
+com.in28minutes.business
+com.in28minutes.data.api
+com.in28minutes.data.stub
+com.in28minutes.junit.business
+com.in28minutes.junit.business.exception
+com.in28minutes.junit.helper
+com.in28minutes.junit.model
+com.in28minutes.powermock
+com.learn.junit5

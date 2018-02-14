@@ -1,6 +1,6 @@
 # jUnit5_Mockito
 
-#Life cycle annotations
+# Life cycle annotations
 **@BeforeEach** - before each test case.
 **@AfterEach**  - after each test case.
 
@@ -16,6 +16,6 @@
 **assertThrows** - to handle exception/errors test case
 
  
-#Mockito
+# Mockito
 **@Mock** - Mocking the ability of the class functionality.
 **@Spy** - Spy the class/method/field for the test case.

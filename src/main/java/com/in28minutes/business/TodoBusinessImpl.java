@@ -13,7 +13,7 @@ public class TodoBusinessImpl {
 	private TodoService todoService;
 
 	/**
-	 * 
+	 * constructor for To-do Business uses <code>ToDoService<code> 
 	 * @param todoService
 	 */
 	TodoBusinessImpl(TodoService todoService) {
@@ -21,19 +21,19 @@ public class TodoBusinessImpl {
 	}
 
 	/**
-	 * 
+	 * Retrieve the list of todo for the specific user
 	 * @param user
-	 * @return
+	 * @return List<String>
 	 */
 	public List<String> retrieveTodosOf(String user) {
 		return todoService.retrieveTodos(user);
 	}
 
 	/**
-	 * 
+	 * Delete given todo item from the user list and return the new list
 	 * @param todo
 	 * @param user
-	 * @return
+	 * @return List<String>
 	 */
 	public List<String> deleteTodosOf(String todo, String user) {
 		return todoService.deleteTodo(todo, user);

@@ -64,7 +64,7 @@ import org.junit.jupiter.api.Test;
 	@Test
 	 void testDeleteUser2Todos() {
 		List<String> list = stub.deleteTodo("four", "user2");
-		Assertions.assertEquals(3, list.size());
+		Assertions.assertEquals(2, list.size());
 		Assertions.assertEquals(Arrays.asList("five", "six"), list);
 	}
 }

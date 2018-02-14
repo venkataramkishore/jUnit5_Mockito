@@ -23,7 +23,7 @@ public class ClientBOImpl implements ClientBO {
 			return new AmountImpl(BigDecimal.ZERO, Currency.EURO);
 
 		if (!isCurrencySameForAllProducts(products)) {
-			throw new DifferentCurrenciesException();
+			throw new DifferentCurrenciesException("Multiple currency products are not allowed.");
 		}
 
 		BigDecimal productSum = calculateProductSum(products);

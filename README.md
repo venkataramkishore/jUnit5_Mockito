@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/venkataramkishore/jUnit5_Mockito.svg?branch=master)](https://travis-ci.org/venkataramkishore/jUnit5_Mockito)
+
 # jUnit5_Mockito
 
 # Life cycle annotations
